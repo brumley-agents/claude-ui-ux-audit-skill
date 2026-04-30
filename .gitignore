@@ -1,32 +1,8 @@
-# OS noise
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Editor / IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# If the skill is ever exercised in-place, these are the outputs it produces.
-# Don't commit them — they're per-run artifacts.
+# If you run the skill from inside the cloned repo, these are its outputs.
 audit/
 tests/
 .playwright-mcp/
-node_modules/
-dist/
 
-# Secrets — defense in depth even though the skill itself doesn't need any
-.env
-.env.*
-!.env.example
-*.local
-
-# Logs
-*.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Mac/Windows file detritus
+.DS_Store
+Thumbs.db
